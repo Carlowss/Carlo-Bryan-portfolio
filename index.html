@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlo.Bryan.Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Carlo.Bryan Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#About-Carlo" style="--i:2">About Carlo</a>
+            <a href="#About-Bryan" style="--i:3">About Bryan</a>
+            <a href="#services" style="--i:4">Services</a>
+            <a href="#Carlo-Skills" style="--i:5">Carlo Skills</a>
+            <a href="#Skills-Bryan" style="--i:6">Bryan Skills</a>
+            <a href="#portfolio" style="--i:7">Portfolio</a>
+            <a href="#contact" style="--i:8">Contact</a>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+    <section class="home">
+        <div id="home">
+            <div class="home-content">
+                <h3>Hello, it's</h3>
+                <h1>Carlo Fernandez</h1>
+                <h3>and</h3>
+                <h1>Bryan Campos</h1>
+                <h3>And We Are <span></span></h3>
+                <p>We are BSIT third-year students with a passion for
+                    coding and design. Proficient in languages like Python,
+                    Java, and JavaScript, we excel in developing efficient and robust
+                    solutions to real-world problems.</p>
+                <div class="home-sci">
+                    <a href="https://www.facebook.com/" style="--i:9"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" style="--i:10"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" style="--i:11"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="#" style="--i:12"><i class='bx bxl-tiktok'></i></a>
+                </div>
+                <a href="#" class="btn-box">More About Us</a>
+            </div>
+        </div>
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+
+    <!-- ------------------About carlo--------------- -->
+
+    <section class="About-Carlo">
+        <div id="About-Carlo">
+            <div class="container">
+                <div class="row">
+                    <div class="aboutcarlo-col-1">
+                        <img src="image/carlo.png">
+                    </div>
+                    <div class="aboutcarlo-col-2">
+                        <h1 class="sub-title">About <span>Carlo</span></h1>
+                        <p>I'm Carlo Fernandez, a 3rd-year
+                            BSIT student. I'm passionate
+                            about technology, with a focus on
+                            editing and coding. I'm excited to
+                            apply what I've learned and
+                            explore career opportunities in
+                            the IT field.</p>
+                        <ul>
+                            <li><span>Age</span><br>20</li>
+                            <li><span>Date of Birth</span><br>November 06, 2002</li>
+                            <li><span>place of Birth</span><br>Urdaneta Sacred Heart Hospital</li>
+                            <li><span>height</span><br>167.5cm</li>
+                            <li><span>Wieght</span><br>134 lbs</li>
+                            <li><span>Civil Status</span><br>Single</li>
+                            <li><span>Nationality</span><br>Filipino</li>
+                            <li><span>Religion</span><br>Roman Catholic</li>
+                        </ul>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming, and Computer Hardware</span><br>PC Build Technicians</li>
+                                <li><span>Coding and Encoder</span><br>Visual studio</li>
+                                <li><span>Davinci resolve 18</span><br>Video Editor</li>
+                                <li><span>Web Developer/Web Design</span><br>Web app Development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023</span><br>City Supermarket, Incorporated Philippines</li>
+                                <li><span>2023</span><br>Optical Encoders</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019-2024</span><br>BSIT AT Colegio de San Juan de Letran - Manaoag</li>
+                                <li><span>2015-2019</span><br>Manaoag National High School (ICT At Senior High School) -
+                                    Manaoag</li>
+                                <li><span>2007-2015</span><br>Manaoag Central School Sped Center</li>
+                            </ul>
+                        </div>
+
+                        <a href="#" class="btn-box">More About Carlo</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ------------------About Bryan--------------- -->
+    <section class="About-Bryan">
+        <div id="About-Bryan">
+            <div class="container">
+                <div class="row">
+                    <div class="aboutbryan-col-1">
+                        <img src="image/bryan.png">
+                    </div>
+                    <div class="aboutbryan-col-2">
+                        <h1 class="sub-title">About <span>Bryan</span></h1>
+
+                        <p>I'm Bryan Campos, also a 3rd-year
+                            BSIT student. I share Carlo's passion
+                            for technology and have a keen interest
+                            in software development and cybersecurity.
+                            I'm eager to apply my skills and knowledge
+                            to real-world projects and challenges.</p>
+                        <ul>
+                            <li><span>Age</span><br>26</li>
+                            <li><span>Date of Birth</span><br>December 29, 1997</li>
+                            <li><span>place of Birth</span><br>Manaoag Community Hospital</li>
+                            <li><span>height</span><br>169.5cm</li>
+                            <li><span>Wieght</span><br>138 lbs</li>
+                            <li><span>Civil Status</span><br>Single</li>
+                            <li><span>Nationality</span><br>Filipino</li>
+                            <li><span>Religion</span><br>Roman Catholic</li>
+                        </ul>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('bryanskills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('bryanexperience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('bryaneducation')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="bryanskills">
+                            <ul>
+                                <li><span>Encoder/coding</span><br>Access,ms word, excel/Html Website editor</li>
+                                <li><span>Photo editing</span><br>Adobe photoshop, capcut</li>
+                                <li><span>Computer hardware</span><br>laptop parts maintenance</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="bryanexperience">
+                            <ul>
+                                <li><span>2020</span><br>GIP( Government Internship Program )Municipality of Manaoag,
+                                    pangasinan</li>
+                                <li><span>2018</span><br>ENHANCEMENT TRAINING Wellcare Institute of Science and
+                                    Technology, Inc Zone II Pinmaludpod Urdaneta City, Pangasinan</li>
+                                <li><span>2017</span><br>IT Support Technician at CyberGuard Technologies</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="bryaneducation">
+                            <ul>
+                                <li><span>2019-2024</span><br>BSIT AT Colegio de San Juan de Letran - Manaoag</li>
+                                <li><span>2012-2016</span><br>Manaoag National High School (Vacational At Senior High
+                                    School)</li>
+                                <li><span>2006-2012</span><br>Manaoag Central School Sped Center</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn-box">More About Bryan</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    </div>
+    <section class="services">
+        <div id="services">
+            <div class="services">
+                <div class="container">
+                    <h1 class="sub-title">Our <span>Services</span></h1>
+                    <div class="services-list">
+                        <div>
+                            <i class='bx bx-code' style='color:#00eeff'></i>
+                            <h2>Web Developer</h2>
+                            <p>Our in-house team provides superior web design services that deliver results.
+                                And our goal is to collaborate with your business to create a memorable website that
+                                helps you achieve your goals.</p>
+                            <a href="#" class="read">Learn More</a>
+                        </div>
+                        <div>
+                            <i class='bx bxs-game' style='color:#00eeff'></i>
+                            <h2>Game Tester</h2>
+                            <p>Specializations: Highlight any specialized
+                                testing services you provide, such as mobile
+                                game testing, VR/AR game testing, indie game
+                                testing, etc.</p>
+                            <a href="#" class="read">Learn More</a>
+                        </div>
+                        <div>
+                            <i class='bx bxs-dice-6' style='color:#00eeff'></i>
+                            <h2>Game Developer</h2>
+                            <p>Specializations: Highlight any specialized services
+                                you provide, such as mobile game development, virtual
+                                reality (VR) or augmented reality (AR)
+                                development, indie game development, etc.</p>
+                            <a href="#" class="read">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    </div>
+    <section class="Carlo-Skills">
+        <div id="Carlo-Skills">
+            <div class="container">
+
+                <!--   *******  Main Heading Starts  *******   -->
+
+                <div class="main-title">
+                    <h1>Carlo <span>Skills<span></h1>
+                    <p>As a third-year BSIT student, your
+                        portfolio should reflect the skills
+                        you've acquired through your coursework,
+                        projects, and any additional learning experiences.
+                        Here are some my skills you might consider highlighting in your company.</p>
+                </div>
+
+                <!--   *******  Main Heading Ends  *******   -->
+
+                <div class="row">
+
+                    <!--   *******  Left Section Starts here  *******   -->
+
+                    <section class="col">
+
+                        <div class="sub-title">
+                            <h2>Programming Skills</h2>
+                        </div>
+
+                        <div class="skills-container">
+
+                            <div class="skill">
+                                <div class="subject">HTML</div>
+                                <div class="progress-bar" value="94%">
+                                    <div class="progress-line" style="max-width: 94%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="subject">CSS</div>
+                                <div class="progress-bar" value="83%">
+                                    <div class="progress-line" style="max-width: 83%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="subject">JavaScript</div>
+                                <div class="progress-bar" value="88%">
+                                    <div class="progress-line" style="max-width: 88%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="subject">Php</div>
+                                <div class="progress-bar" value="68%">
+                                    <div class="progress-line" style="max-width: 68%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!--   ********  Left Section Ends Here  *******  -->
+
+                    <!--   ********  Right Section Starts Here  ********  -->
+
+                    <section class="col">
+
+                        <div class="sub-title">
+                            <h2>Designing Skills</h2>
+                        </div>
+
+                        <div class="skills-container">
+
+                            <div class="skill">
+                                <div class="subject">Photoshop</div>
+                                <div class="progress-bar" value="82%">
+                                    <div class="progress-line" style="max-width: 82%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="subject">Illustrator</div>
+                                <div class="progress-bar" value="74%">
+                                    <div class="progress-line" style="max-width: 74%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="subject">Figma</div>
+                                <div class="progress-bar" value="63%">
+                                    <div class="progress-line" style="max-width: 63%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="subject">Responsive Design</div>
+                                <div class="progress-bar" value="91%">
+                                    <div class="progress-line" style="max-width: 91%"></div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+    </div>
+    <section class="Skills-Bryan">
+        <div id="Skills-Bryan">
+            <div class="container1">
+
+                <!--   *******  Main Heading Starts  *******   -->
+
+                <div class="main-title">
+                    <h1>Bryan <span>Skills<span></h1>
+                    <p> As a third-year BSIT student, your
+                        portfolio should reflect the skills
+                        you've acquired through your coursework,
+                        projects, and any additional learning experiences.
+                        Here are some my skills you might consider highlighting in your company</p>
+                </div>
+
+                <!--   *******  Main Heading Ends  *******   -->
+
+                <div class="row">
+
+                    <!--   *******  Left Section Starts here  *******   -->
+
+                    <section class="col">
+
+                        <div class="sub-title">
+                            <h2>Programming Skills</h2>
+                        </div>
+
+                        <div class="skills-container">
+
+                            <div class="skill">
+                                <div class="subject">HTML</div>
+                                <div class="progress-bar" value="70%">
+                                    <div class="progress-line" style="max-width: 70%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="subject">CSS</div>
+                                <div class="progress-bar" value="75%">
+                                    <div class="progress-line" style="max-width: 75%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="subject">JavaScript</div>
+                                <div class="progress-bar" value="80%">
+                                    <div class="progress-line" style="max-width: 80%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="subject">Php</div>
+                                <div class="progress-bar" value="85%">
+                                    <div class="progress-line" style="max-width: 85%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!--   ********  Left Section Ends Here  *******  -->
+
+                    <!--   ********  Right Section Starts Here  ********  -->
+
+                    <section class="col">
+
+                        <div class="sub-title">
+                            <h2>Designing Skills</h2>
+                        </div>
+
+                        <div class="skills-container">
+
+                            <div class="skill">
+                                <div class="subject">Photoshop</div>
+                                <div class="progress-bar" value="80%">
+                                    <div class="progress-line" style="max-width: 80%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="subject">Illustrator</div>
+                                <div class="progress-bar" value="70%">
+                                    <div class="progress-line" style="max-width: 70%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="subject">Figma</div>
+                                <div class="progress-bar" value="85%">
+                                    <div class="progress-line" style="max-width: 85%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="subject">Responsive Design</div>
+                                <div class="progress-bar" value="75%">
+                                    <div class="progress-line" style="max-width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+    </section>
+    </section>
+    <section class="portfolio">
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Our <span>Work</span></h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="image/picture1.png">
+                        <div class="layer">
+                            <h3>Davinci resolve 18</h3>
+                            <p>DaVinci Resolve has numerous features that are free to use.
+                                However, auto-generated subtitles are not one of them.</p>
+                            <a href="#"><i class='bx bx-link-external' style='color:#00ffee'></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/picture2.png">
+                        <div class="layer">
+                            <h3>Adobe photoshop</h3>
+                            <p>Photoshop makes things look beautiful just as you have special effects in movies.</p>
+                            <a href="#"><i class='bx bx-link-external' style='color:#00ffee'></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/picture3.png">
+                        <div class="layer">
+                            <h3>javascript codig</h3>
+                            <p>Code never lies, comments sometimes do.” 18. “Any fool can write code that a computer
+                                can understand. Good programmers write code that humans can understand</p>
+                            <a href="#"><i class='bx bx-link-external' style='color:#00ffee'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn-box">See More</a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!---------------------------contact------------------------->
+    <section class="contact">
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact <span>Us</span></h1>
+                        <p><i class='bx bx-mail-send' style='color:#00eeff'></i>Contact@example.com</p>
+                        <p><i class='bx bxs-phone' style='color:#00eeff'></i>09511283474</p>
+                        <p><i class='bx bxs-phone' style='color:#00eeff'></i>09291973556</p>
+                        <div class="social-icons">
+                            <a href=""><i class='bx bxl-snapchat' style='color:#00eeff'></i></a>
+                            <a href=""><i class='bx bxl-twitter' style='color:#00eeff'></i></a>
+                            <a href=""><i class='bx bxl-instagram-alt' style='color:#00eeff'></i></a>
+                            <a href=""><i class='bx bxl-linkedin' style='color:#00eeff'></i></a>
+                        </div>
+                        <a href="image/IT-CARLO-C.V..docx" dowload class="btn-box1">Download CV Carlo</a>
+
+                        <a href="image/IT-BRYAN-C.V..docx" dowload class="btn-box2">Download CV Bryan</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn-box3">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+    </section>
+    <div class="copyright">
+        <p>Copyright Carlo and Bryan. Made by Us <i class='bx bx-game' style='color:#00eeff'></i> Thanks for Visiting
+        </p>
+    </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby4c5a5MPW3IQ3VFcubJBtxA0oBOs0BL5TCVz2w9u87gFNvaP_WKXGsPQjRFdl70ZIF6Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    </section>
+    </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
